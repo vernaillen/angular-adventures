@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+			 version="2.0">
+
+	<portlet>
+		<portlet-name>angular-rest-promises</portlet-name>
+		<display-name>Angular REST Promises Portlet</display-name>
+		<portlet-class>be.aca.portlet.RestPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/jsp/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>REST Promises</title>
+			<short-title>REST Promises</short-title>
+			<keywords>REST Promises</keywords>
+		</portlet-info>
+	</portlet>
+</portlet-app>

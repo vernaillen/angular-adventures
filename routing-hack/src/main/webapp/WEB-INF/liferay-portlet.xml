@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>angular-routing-hack</portlet-name>
+		<icon>/img/icon.png</icon>
+		<instanceable>true</instanceable>
+		<ajaxable>false</ajaxable>
+		<header-portlet-css>/css/angular.css</header-portlet-css>
+		<!--<header-portal-javascript>/angular-routing-hack-portlet/js/angular.js</header-portal-javascript>-->
+		<header-portlet-javascript>/js/main.js</header-portlet-javascript>
+	</portlet>
+</liferay-portlet-app>

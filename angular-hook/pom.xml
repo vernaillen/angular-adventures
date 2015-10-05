@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>angular-hook</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Angular Angular Hook</name>
+	<description>Angular Angular Hook</description>
+	<url>http://www.aca-it.be</url>
+
+	<parent>
+		<groupId>be.aca.liferay</groupId>
+		<artifactId>angular-adventures</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<build>
+		<finalName>angular-angular-hook</finalName>
+	</build>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>angular-hello-world</portlet-name>
+		<icon>/img/icon.png</icon>
+		<instanceable>true</instanceable>
+		<ajaxable>false</ajaxable>
+		<!--<footer-portal-javascript>/angular-hello-world-portlet/js/angular.js</footer-portal-javascript>-->
+		<header-portlet-css>/css/angular.css</header-portlet-css>
+	</portlet>
+</liferay-portlet-app>

@@ -1,0 +1,34 @@
+<h2>Bookmarks (Liferay.Service)</h2>
+<div>
+	<table class="table table-striped table-hover table-responsive">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="bookmark in model.bookmarks track by $index">
+				<td>{{bookmark.entryId}}</td>
+				<td>{{bookmark.name}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>Bookmarks (REST)</h2>
+<div>
+	<table class="table table-striped table-hover table-responsive">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="bookmark in model.bookmarks2 track by $index">
+				<td>{{bookmark.entryId}}</td>
+				<td>{{bookmark.name}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
